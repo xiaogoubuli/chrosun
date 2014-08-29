@@ -18,8 +18,11 @@
     },
     "content_scripts": [
         {
-            "matches": [""],
-            "js": ["js/chresh.js"]
+            "matches": ["*"],
+            "js": ["js/chrosun.js"]
         }
+    ],
+    "permissions": [
+        "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json"
     ]
 }

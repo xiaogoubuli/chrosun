@@ -1,3 +1,4 @@
 (function() {
-    alert(0);
+    var addr = $.GETJson();
+    $('#city').html(addr.city);
 })();
