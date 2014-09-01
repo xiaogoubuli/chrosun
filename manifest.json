@@ -22,6 +22,11 @@
             "js": ["js/chrosun.js"]
         }
     ],
+    "background": {
+        "scripts": [
+            "js/chrosun.js"
+        ]
+    },
     "permissions": [
         "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json"
     ]
